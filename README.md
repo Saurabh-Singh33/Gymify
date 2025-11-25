@@ -49,7 +49,6 @@ REST API routes (simulated)
 
 Dummy JSON responses
 
-No database, no data persistence
 
 Database
 
