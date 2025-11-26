@@ -41,7 +41,7 @@ React Router
 
 Context or Redux (if used for UI state)
 
-Tailwind / CSS / Bootstrap
+ CSS 
 
 Backend (Node + Express)
 
