@@ -7,7 +7,14 @@ const Hero = () => {
          
       <div className="title">
          <h1>Welcome to Fitness Gym</h1>
-      <p>Your journey to a healthier life starts here.</p>
+      </div>
+      <div className="sub-title">
+          <p>Your Journey to a Healthier Life Starts Here</p>
+          <p>Sculpt Your Perfect Body</p>
+      </div>
+      <div className="buttons">
+        <button>Join Now</button>
+        <button> Membership Plan</button>
       </div>
        </div>
     </section>

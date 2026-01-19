@@ -71,7 +71,7 @@ header p {
 }
 .hero .content .buttons button:hover {
   cursor: pointer;
-  background: #0095ff;
+  background: #1f6198;
   color: whitesmoke;
   transition: 0.3s;
 }

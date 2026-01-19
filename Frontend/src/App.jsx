@@ -9,7 +9,7 @@ import Hero from './Components/Hero'
 import Contact from './Components/Contact'
 import Pricing from './Components/Pricing'
 import Footer from './Components/Footer'
-import WorkoutSessions from './Components/WorkoutSession'
+import WorkoutSessions from './Components/WorkoutSessions'
 import Gallery from './Components/Gallery'
 import BMICalculator from './Components/BMICalculator'
 
