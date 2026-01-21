@@ -349,7 +349,7 @@ header p {
   background: transparent;
   color: #fff;
   font-weight: 500;
-  background: #0095ff;
+  background: #3373b3;
   padding: 15px 30px;
   border: none;
   text-decoration: none;
@@ -358,7 +358,7 @@ header p {
 }
 .pricing .wrapper .card .description a:hover {
   transition: 0.3s;
-  background: #0267af;
+  background: #193549;
 }
 .pricing .wrapper .card:nth-child(2):before {
   content: "";
@@ -453,9 +453,12 @@ header p {
   }
 }
 
+                                           
+                                         /* contact section */
+
 .contact {
   min-height: 800px;
-  background: url(/contact.jpg) rgba(0, 0, 0, 0.75);
+  background: url(/contact.avif) rgba(0, 0, 0, 0.75);
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;

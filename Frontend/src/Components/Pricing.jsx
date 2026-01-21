@@ -1,4 +1,6 @@
+import { Check } from 'lucide-react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Pricing = () => {
   const pricing=[
@@ -36,6 +38,17 @@ const Pricing = () => {
                   <h2>{element.price}</h2>
                   <p>{element.length}</p>
                 
+                </div>
+                <div className="description">
+                  {/*We use npm i lucide-react for icons*/}
+                  <p>
+                    <Check size={16} /> Modern Equipments
+                  </p>
+                  <p><Check size={16} /> 24/7 Support</p>
+                  <p><Check size={16} /> Personal Trainer</p>
+                  <p><Check size={16} /> Weight Losing Classes</p>
+                  <p><Check size={16} /> Nutrition Plans</p>
+                   <Link to={"/"}>Get Started</Link>
                 </div>
                 </div>
             )
