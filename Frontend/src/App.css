@@ -523,6 +523,7 @@ footer {
   color: #0095ff;
 }
 
+                     /* bmi calculator section */
 .bmi {
   display: flex;
   flex-direction: column;
