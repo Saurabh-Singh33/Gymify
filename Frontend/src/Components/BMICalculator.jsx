@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react' 
+import { toast } from 'react-toastify';
  
 
 
@@ -15,7 +16,7 @@ const BMICalculator = () => {
 
 
     if (!height || !weight|| !gender) {
-      alert("Please enter valid height and weight");
+      toast.warning("Please enter valid height and weight");
       return;
     }
 
