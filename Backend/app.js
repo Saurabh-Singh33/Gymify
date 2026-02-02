@@ -39,7 +39,7 @@ router.post("/send/mail", async (req, res, next) => {
   try {
     // Here you can add your logic to send email
     await sendEmail({
-      email: "", // Add recipient email address
+      email:"saurabh.singh133449@marwadiuniversity.ac.in", // Add recipient email address
       subject: "Gym Contact Form Message",
       message,
       userEmail: email,
